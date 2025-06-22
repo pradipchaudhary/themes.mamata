@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mamata – Beauty Salon & Wellness Theme</title>
+
+  <!-- Inter & Playfair Display -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind Play CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Particles.js -->
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.1/tsparticles.bundle.min.js"></script>
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=IBM+Plex+Serif:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@300;400;500;600;700&family=Inter&display=swap" rel="stylesheet">
+  <style>
+      body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+
+<body class="bg-white text-gray-800 antialiased scroll-smooth">
+
+  <!-- Hero -->
+  <header class="relative isolate overflow-hidden">
+    <div id="particles" class="absolute inset-0 -z-10"></div>
+
+    <div class="mx-auto max-w-7xl px-6 py-24 lg:flex lg:items-center lg:gap-10">
+      <div class="max-w-2xl">
+        <h1 class="font-['Playfair_Display'] text-4xl lg:text-6xl font-semibold tracking-tight text-gray-900/90 mb-6 opacity-0 translate-y-8 transition duration-700">
+          Mamata
+        </h1>
+        <p class="text-lg lg:text-xl leading-relaxed text-gray-600 mb-10 opacity-0 translate-y-8 transition duration-700 delay-100">
+          A luxurious, fully-responsive WordPress theme crafted for beauty salons, spas & wellness studios—elevate your brand’s elegance online.
+        </p>
+        <div class="flex gap-4 opacity-0 translate-y-8 transition duration-700 delay-200">
+          <a href="#pricing" class="inline-flex items-center justify-center rounded-md bg-pink-600 hover:bg-pink-700 text-white px-6 py-3 transition ring-1 ring-pink-600/20">
+            Buy Now
+          </a>
+          <a href="#demo" class="inline-flex items-center justify-center rounded-md ring-1 ring-gray-300 hover:bg-gray-50 px-6 py-3 transition">
+            Live Demo
+          </a>
+        </div>
+      </div>
+
+      <div class="mt-16 lg:mt-0 lg:flex-1">
+        <div class="relative mx-auto max-w-md">
+          <img src="https://images.unsplash.com/photo-1587502536263-9293278b8291?auto=format&fit=crop&w=600&q=60" alt="Mamata Preview" class="rounded-2xl shadow-xl ring-1 ring-gray-900/10 w-full h-auto object-cover opacity-0 scale-95 transition duration-700 delay-300" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Features -->
+  <section id="features" class="py-24 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="max-w-2xl mx-auto text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">Graceful features that power-up your presence</h2>
+      </div>
+
+      <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+        <!-- Feature -->
+        <div class="group bg-white rounded-xl p-8 ring-1 ring-gray-200 hover:ring-pink-600 transition shadow-sm hover:shadow-md">
+          <i data-lucide="layout-dashboard" class="w-8 h-8 text-pink-600 mb-4"></i>
+          <h3 class="font-medium text-lg text-gray-900 mb-2">Drag-and-Drop Builder</h3>
+          <p class="text-gray-600 leading-relaxed">Craft pages visually with intuitive modules—no coding required.</p>
+        </div>
+
+        <div class="group bg-white rounded-xl p-8 ring-1 ring-gray-200 hover:ring-pink-600 transition shadow-sm hover:shadow-md">
+          <i data-lucide="smartphone" class="w-8 h-8 text-pink-600 mb-4"></i>
+          <h3 class="font-medium text-lg text-gray-900 mb-2">Mobile-First Design</h3>
+          <p class="text-gray-600 leading-relaxed">Your site looks flawless on every screen size, from phone to desktop.</p>
+        </div>
+
+        <div class="group bg-white rounded-xl p-8 ring-1 ring-gray-200 hover:ring-pink-600 transition shadow-sm hover:shadow-md">
+          <i data-lucide="palette" class="w-8 h-8 text-pink-600 mb-4"></i>
+          <h3 class="font-medium text-lg text-gray-900 mb-2">Unlimited Colors</h3>
+          <p class="text-gray-600 leading-relaxed">Match your brand perfectly with fine-tuned color controls.</p>
+        </div>
+
+        <div class="group bg-white rounded-xl p-8 ring-1 ring-gray-200 hover:ring-pink-600 transition shadow-sm hover:shadow-md">
+          <i data-lucide="file-text" class="w-8 h-8 text-pink-600 mb-4"></i>
+          <h3 class="font-medium text-lg text-gray-900 mb-2">Ready-Made Pages</h3>
+          <p class="text-gray-600 leading-relaxed">Home, Services, Shop, Booking, Blog & more—launch instantly.</p>
+        </div>
+
+        <div class="group bg-white rounded-xl p-8 ring-1 ring-gray-200 hover:ring-pink-600 transition shadow-sm hover:shadow-md">
+          <i data-lucide="zap" class="w-8 h-8 text-pink-600 mb-4"></i>
+          <h3 class="font-medium text-lg text-gray-900 mb-2">One-Click Import</h3>
+          <p class="text-gray-600 leading-relaxed">Install demo content & style in seconds and start editing.</p>
+        </div>
+
+        <div class="group bg-white rounded-xl p-8 ring-1 ring-gray-200 hover:ring-pink-600 transition shadow-sm hover:shadow-md">
+          <i data-lucide="shield-check" class="w-8 h-8 text-pink-600 mb-4"></i>
+          <h3 class="font-medium text-lg text-gray-900 mb-2">SEO & Speed Optimized</h3>
+          <p class="text-gray-600 leading-relaxed">Built for lightning performance & search-engine love.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Showcase Carousel -->
+  <section id="demo" class="py-24">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="flex flex-col lg:flex-row items-center gap-10">
+        <div class="flex-1 order-2 lg:order-1">
+          <h2 class="text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900 mb-6">Crafted visuals that captivate visitors</h2>
+          <p class="text-gray-600 text-lg leading-relaxed mb-8">From mesmerizing hero sections to stylish product galleries, every component ensures your beauty business stands out and stays memorable.</p>
+          <a href="#pricing" class="inline-flex items-center rounded-md bg-pink-600 hover:bg-pink-700 text-white px-6 py-3 transition ring-1 ring-pink-600/20">
+            Get Mamata Today
+          </a>
+        </div>
+        <div class="flex-1 order-1 lg:order-2">
+          <div class="relative">
+            <img src="https://images.unsplash.com/photo-1559599238-509c4b8430d8?auto=format&fit=crop&w=700&q=60" class="rounded-xl shadow-lg ring-1 ring-gray-900/10 w-full h-auto object-cover" />
+            <img src="https://images.unsplash.com/photo-1526045478516-a436c1db3f19?auto=format&fit=crop&w=700&q=60" class="absolute bottom-0 right-0 translate-x-8 translate-y-8 w-3/5 rounded-xl shadow-xl ring-1 ring-gray-900/10" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats with Chart -->
+  <section class="py-24 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid lg:grid-cols-2 gap-16">
+        <div>
+          <h2 class="text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900 mb-4">Performance that outshines competitors</h2>
+          <p class="text-gray-600 text-lg leading-relaxed mb-8">Optimized code, smart asset loading and modern technologies ensure low bounce rates and high conversions.</p>
+          <ul class="space-y-4">
+            <li class="flex items-start gap-3">
+              <i data-lucide="check-circle" class="w-6 h-6 text-pink-600 mt-0.5"></i>
+              <span class="text-gray-800">95% overall Lighthouse score</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <i data-lucide="check-circle" class="w-6 h-6 text-pink-600 mt-0.5"></i>
+              <span class="text-gray-800">A-grade on GTmetrix</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <i data-lucide="check-circle" class="w-6 h-6 text-pink-600 mt-0.5"></i>
+              <span class="text-gray-800">≤1.2 s average load time</span>
+            </li>
+          </ul>
+        </div>
+        <div class="flex items-center">
+          <div class="w-full bg-white rounded-xl p-6 ring-1 ring-gray-200 shadow-sm">
+            <h3 class="font-medium text-gray-900 mb-4">Key Metrics</h3>
+            <div>
+              <canvas id="perfChart" height="230"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="py-24">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="max-w-2xl mx-auto text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">Simple, transparent pricing</h2>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Plan -->
+        <div class="relative bg-white rounded-2xl p-10 ring-1 ring-gray-200 shadow-sm flex flex-col">
+          <span class="text-pink-600 font-medium mb-4">Starter</span>
+          <p class="text-5xl font-semibold tracking-tight text-gray-900">$39</p>
+          <p class="text-gray-600 mt-4 mb-8">Perfect for freelancers & small studios launching a single website.</p>
+          <ul class="space-y-3 mb-10">
+            <li class="flex items-center gap-3"><i data-lucide="check" class="w-5 h-5 text-pink-600"></i>1 Site License</li>
+            <li class="flex items-center gap-3"><i data-lucide="check" class="w-5 h-5 text-pink-600"></i>6-month Support</li>
+            <li class="flex items-center gap-3"><i data-lucide="check" class="w-5 h-5 text-pink-600"></i>One-click Demo</li>
+          </ul>
+          <a href="#" class="mt-auto inline-flex items-center justify-center rounded-md bg-pink-600 hover:bg-pink-700 text-white px-6 py-3 transition ring-1 ring-pink-600/20">
+            Purchase
+          </a>
+        </div>
+
+        <div class="relative bg-pink-600/90 backdrop-blur-xl text-white rounded-2xl p-10 ring-1 ring-pink-600 shadow-xl flex flex-col scale-105">
+          <span class="font-medium mb-4">Professional</span>
+          <p class="text-5xl font-semibold tracking-tight">$59</p>
+          <p class="opacity-90 mt-4 mb-8">Best value for growing salons & spas with multiple branches.</p>
+          <ul class="space-y-3 mb-10">
+            <li class="flex items-center gap-3"><i data-lucide="check" class="w-5 h-5"></i>5 Site Licenses</li>
+            <li class="flex items-center gap-3"><i data-lucide="check" class="w-5 h-5"></i>12-month Support</li>
+            <li class="flex items-center gap-3"><i data-lucide="check" class="w-5 h-5"></i>Priority Updates</li>
+          </ul>
+          <a href="#" class="mt-auto inline-flex items-center justify-center rounded-md bg-white hover:bg-gray-100 text-pink-600 px-6 py-3 transition ring-1 ring-white/20">
+            Purchase
+          </a>
+        </div>
+
+        <div class="relative bg-white rounded-2xl p-10 ring-1 ring-gray-200 shadow-sm flex flex-col">
+          <span class="text-pink-600 font-medium mb-4">Agency</span>
+          <p class="text-5xl font-semibold tracking-tight text-gray-900">$149</p>
+          <p class="text-gray-600 mt-4 mb-8">Unlimited installations and premium priority support.</p>
+          <ul class="space-y-3 mb-10">
+            <li class="flex items-center gap-3"><i data-lucide="check" class="w-5 h-5 text-pink-600"></i>Unlimited Sites</li>
+            <li class="flex items-center gap-3"><i data-lucide="check" class="w-5 h-5 text-pink-600"></i>Lifetime Support</li>
+            <li class="flex items-center gap-3"><i data-lucide="check" class="w-5 h-5 text-pink-600"></i>White-Label Option</li>
+          </ul>
+          <a href="#" class="mt-auto inline-flex items-center justify-center rounded-md bg-pink-600 hover:bg-pink-700 text-white px-6 py-3 transition ring-1 ring-pink-600/20">
+            Purchase
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-12 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="flex flex-col sm:flex-row justify-between items-center gap-6">
+        <p class="text-gray-600">&copy; <span id="year"></span> Mamata Theme. All rights reserved.</p>
+        <div class="flex gap-6">
+          <a href="#" class="text-gray-500 hover:text-pink-600 transition"><i data-lucide="twitter" class="w-5 h-5"></i></a>
+          <a href="#" class="text-gray-500 hover:text-pink-600 transition"><i data-lucide="facebook" class="w-5 h-5"></i></a>
+          <a href="#" class="text-gray-500 hover:text-pink-600 transition"><i data-lucide="instagram" class="w-5 h-5"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    // Init Lucide
+    lucide.createIcons();
+
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Perf Chart
+    const ctx = document.getElementById('perfChart');
+    if (ctx) {
+      new Chart(ctx, {
+        type: 'radar',
+        data: {
+          labels: ['Performance', 'Accessibility', 'Best Practices', 'SEO', 'PWA'],
+          datasets: [{
+            label: 'Mamata',
+            data: [95, 90, 92, 94, 85],
+            backgroundColor: 'rgba(236, 72, 153, 0.2)',
+            borderColor: 'rgb(236, 72, 153)',
+            borderWidth: 2,
+            pointBackgroundColor: 'rgb(236, 72, 153)'
+          }]
+        },
+        options: {
+          responsive: true,
+          scales: {
+            r: { beginAtZero: true, ticks: { display: false }, grid: { color: '#e2e8f0' } }
+          },
+          plugins: { legend: { display: false } }
+        }
+      });
+    }
+
+    // ParticlesJS
+    tsParticles.load("particles", {
+      fpsLimit: 60,
+      background: { color: "transparent" },
+      fullScreen: { enable: false },
+      particles: {
+        color: { value: "#ec4899" },
+        links: { enable: true, color: "#ec4899", opacity: 0.25 },
+        move: { enable: true, speed: 0.6 },
+        number: { value: 50, density: { enable: true, area: 800 } },
+        opacity: { value: 0.4 },
+        size: { value: { min: 1, max: 3 } }
+      },
+      interactivity: {
+        events: { onHover: { enable: true, mode: "repulse" } },
+        modes: { repulse: { distance: 60 } }
+      }
+    });
+
+    // Staggered fade-in
+    document.addEventListener('DOMContentLoaded', () => {
+      const els = document.querySelectorAll('[class*="opacity-0"]');
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.remove('opacity-0', 'translate-y-8', 'scale-95');
+          }
+        });
+      }, { threshold: 0.2 });
+
+      els.forEach(el => io.observe(el));
+    });
+  </script>
+</body>
+</html>
